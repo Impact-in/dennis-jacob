@@ -1,0 +1,39 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.container{
+	padding-top: 48px;
+	padding-bottom: 48px;
+	padding-left: 50px;
+	padding-right: 50px;
+	height: 500px;
+	width: 400px;
+	/* background-color: black; */
+}
+form{
+display: grid;
+}
+input{
+	height: 40px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.checking{
+	display: flex;
+}
+.checking label{
+	padding-top: 14px;
+	padding-left: 6px;
+}
+button{
+	margin-top: 20px;
+	background-color: rgb(169, 79, 169);
+	color: white;
+	height: 50px;
+	width: 100%;
+	border: 0;
+	
+}
